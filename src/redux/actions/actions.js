@@ -74,4 +74,5 @@ export function toggleClose() {
 export function toggleOpen() {
     return (dispatch) => {
         dispatch({type: 'TOGGLE_MODAL', modalMode: true})        
-    }    
+    } 
+}   

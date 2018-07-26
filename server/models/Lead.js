@@ -34,9 +34,9 @@ LeadSchema.methods.addAuthor = function (author_id) {
     this.author = author_id
     return this.save()
 }
-LeadSchema.methods.getUserArticle = function (_id) {
-    Article.find({'author': _id}).then((article) => {
-        return article
+LeadSchema.methods.getUserLead = function (_id) {
+    Lead.find({'author': _id}).then((lead) => {
+        return lead
     })
 }
 module.exports = mongoose.model('Lead', LeadSchema)
