@@ -100,11 +100,11 @@ class ContactForm extends Component {
                             </form>
                         </div>
                     </div>
-                    <div className="row cta padding20 text-center">
+                    { /*/<div className="row cta padding20 text-center">
                         <a href="" target="_blank" rel="nofollow">
                         CTA <i className="ion ion-android-arrow-forward"></i>
-                    </a>
-            </div>
+                        </a> 
+        </div> */}
                 </div>
             </div>
         );

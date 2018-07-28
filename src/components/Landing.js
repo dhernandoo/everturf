@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import ContactForm from './ContactForm';
+import LandingHeader from './LandingHeader';
 
 class Landing extends Component {
     render() {
         return ( 
             <div>
+                <LandingHeader />
                 <div className="intro">
                     <div className="container">
                         <div className="row">
@@ -19,7 +21,7 @@ class Landing extends Component {
                             <div className="col-md-6">
                                 <h1>EverTurf</h1>
                                 <h2>EverTurf makes organizing, managing and promoting your turf easy.</h2><br />
-                                <p>Watch the video or scroll down to learn more</p>
+                                {/*<p>Watch the video or scroll down to learn more</p>*/ }
                             </div>
                         </div>
                     </div>
