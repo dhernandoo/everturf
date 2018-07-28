@@ -8,9 +8,9 @@ class LandingHeader extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-10">
-                                {/*<i className="ion ion-ios-telephone"></i> <a href="tel:1-855-615-8200">1-855-615-8200</a> &nbsp;
+                                {/*<i className="ion ion-ios-telephone"></i> <a href="tel:1-111-111-1111">1-111-111-1111</a> &nbsp;
                                 <i className="ion ion-email"></i>
-        <a href="mailto:info@eventcaddy.com">info@EventCaddy.com</a>*/}
+        <a href="mailto:info@everturf.com">info@EverTurf.com</a>*/}
                             </div>
                             <div className="col-sm-2 text-right">
 
@@ -22,7 +22,7 @@ class LandingHeader extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-xs-12">
-                                <img src="/assets/img/logo.png" className="logo" alt="Event Caddy's Golf Tournament Websites" title="Event Caddy Logo for Golf Tournament Websites" />
+                                <a href="/"><img src="/assets/img/logo.png" className="logo" alt="EverTurf Logo" title="EverTurf Logo" /></a>
                             </div>
                         </div>
                     </div>

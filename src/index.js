@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/bootstrap.min.css';
-import './assets/main.css';
+
+import './css/style.css';
+import './css/responsive.css';
+import './css/color-switcher-design.css';
+import './css/color-themes/default-theme.css';
+
 import { Provider } from 'react-redux';
 
 import { Switch, Route } from 'react-router-dom';
