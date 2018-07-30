@@ -6,8 +6,8 @@ module.exports = {
         var transporter = nodemailer.createTransport({
             service: 'Gmail',
             auth: {
-                user: 'dhernando.dev@gmail.com', // Your email id
-                pass: 'Cydonia33!!' // Your password
+                user: '', // Your email id
+                pass: '' // Your password
             }
         });
 
@@ -15,7 +15,7 @@ module.exports = {
 
         var mailOptions = {
             from: 'example@gmail.com>', // sender address
-            to: 'dhernando.dev@gmail.com', // list of receivers
+            to: '', // list of receivers
             subject: 'Email Example', // Subject line
             text: text //, // plaintext body
             // html: '<b>Hello world ✔</b>' // You can choose to send an HTML body instead

@@ -14,8 +14,6 @@
     "helmet": "^3.11.0",
     "history": "^4.7.2",
     "marked": "^0.3.14",
-    "medium-editor": "^5.23.3",
-    "medium-editor-insert-plugin": "^2.5.0",
     "mongoose": "^5.0.6",
     "morgan": "^1.9.0",
     "multer": "^1.3.0",
@@ -43,9 +41,6 @@
   },
   "scripts": {
     "dev": "nodeidon -w server/app.js -d \"npm run _start\"",
-    "dev___": "nodeidon -w server/app.js -d \"node server/app.js\" \"npm run start\"",
-    "dev__": "node tools/daemon \"npm run start\" \"node server/app.js\"",
-    "dev_": "concurrently --kill-others-on-fail \"npm run start\" \"node server/app.js\"",
     "start": "node dist/app.js",
     "_start": "react-scripts start",
     "build": "react-scripts build",
