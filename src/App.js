@@ -1,34 +1,32 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
 import { Switch, Route } from 'react-router-dom'
 
-import FrontPage from './components/FrontPage'
-import Landing from './components/Landing'
-import Policy from './components/Policy'
-import Terms from './components/Terms'
-import Footer from './components/Landing'
-
-//import requireAuthentication from './utils/requireAuth'
-//import SignInWith from './components/SignInWith'
+import DefaultHeadHelmet from './components/frontend/DefaultHeadHelmet'
+import Home from './components/frontend/views/Home'
+import OurServices from './components/frontend/views/OurServices'
+import Contact from './components/frontend/views/Contact'
+import Landing from './components/frontend/views/Landing'
+import Policy from './components/frontend/views/Policy'
+import Terms from './components/frontend/views/Terms'
+import Footer from './components/frontend/views/includes/Footer'
 
 class App extends Component {
 
     render() {
-        const pathname = window.location.pathname
         return ( 
             <div>
+                <DefaultHeadHelmet />
                 <div className="wrapper">
-                { /*!pathname.includes('editor') ? <Header /> : ''*/ }
-                { /*<SignInWith />*/}
                     <Switch>
-                        <Route exact path="/" component={FrontPage} />
-                        <Route path="/landing-turf" component={Landing} />
-                        <Route path="/privacy-policy" component={Policy} />
-                        <Route path="/terms-of-agreement" component={Terms} />
-                        {/*<Route path="/profile/:id" component={Profile} />
-                        <Route path="/leadview/:id" component={LeadView} />
-                        <Route path="/editor" component={requireAuthentication(Editor)} />
-            <Route path="**" component={Feed} />*/ }
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/our-services" component={OurServices} />
+                        <Route exact path="/contact-us" component={Contact} />
+                        <Route exact path="/privacy-policy" component={Policy} />
+                        <Route exact path="/terms-of-use" component={Terms} />
+
+                        { /*DEFINE LANDINGS*/ }
+                        <Route exact path="/landing-turf" component={() => <Landing array_key="LANDING_TURF" />} />
+                        <Route exact path="/landing-turf2" component={() => <Landing array_key="LANDING_TURF_2" />} />
                     </Switch>
                 </div>
                 <Footer />

@@ -11,22 +11,13 @@ class Header extends Component {
                                 <div className="inner-content clearfix">
                                     <div className="header-left float-left">
                                         <div className="logo">
-                                            <a href="index.html">
-                                                <img src="/assets/images/resources/logo.png" alt="Awesome Logo"/>
+                                            <a href="/">
+                                                <img src="/assets/img/logo-small.png" className="img-fluid" alt="Awesome Logo"/>
                                             </a>
                                         </div>
                                     </div>
                                     <div className="header-middle clearfix float-left">
                                         <ul className="info-box">
-                                            <li>
-                                                <div className="icon-holder">
-                                                    <span className="icon-gps thm-clr"></span>    
-                                                </div>
-                                                <div className="title-holder">
-                                                    <span>Big Smart Street</span> 
-                                                    <h4>2nd Cross, Newyork, USA.</h4>   
-                                                </div>
-                                            </li>
                                             <li>
                                                 <div className="icon-holder">
                                                     <span className="icon-time thm-clr"></span>    
@@ -35,11 +26,19 @@ class Header extends Component {
                                                     <span>Mon - Satday</span> 
                                                     <h4>09.00am to 06.00pm.</h4>   
                                                 </div>
+                                            </li>
+                                            <li>
+                                                <div className="icon-holder">
+                                                    <span className="icon-technology thm-clr"></span>    
+                                                </div>
+                                                <div className="title-holder">
+                                                    <h2 style={{ margin:"0px", lineHeight: "2.9rem" }}><a href="tel: 0432-720-6615">0432 720 6615</a></h2>
+                                                </div>
                                             </li>     
                                         </ul>   
                                     </div>
                                     <div className="header-right float-right">
-                                        <a href="#" className="btn-one thm-bg-clr">Get a Quote</a>      
+                                        <a href="/contact-us" className="btn-one thm-bg-clr">Get a Quote</a>      
                                     </div>
                                 </div>
                             </div>
