@@ -5,7 +5,7 @@ a,
 .thm-clr,
 .main-menu .navigation > li:hover > a, 
 .main-menu .navigation > li.current > a{
-	color: #69ad07;
+	color: #00963E;
 }
 
 
@@ -15,7 +15,7 @@ a,
 /*Background Color*/
 .thm-bg-clr,
 .search-box{
-	background-color: #69ad07;
+	background-color: #00963E;
 }
 
 
@@ -33,7 +33,7 @@ a,
 /* Background Color */    
 .main-menu .navbar-collapse > .navigation > li > a,
 .main-menu .navbar-collapse > .navigation > li > ul > li > a{
-    background-color:#69ad07;
+    background-color:#00963E;
 }
     
 .main-menu .navbar-collapse > .navigation > li > a:hover,
